@@ -1,4 +1,4 @@
-# Thực tập: poly-shop
+# Thực tập: BookShop
 
 - FE: React
 - BE: NodeJs
