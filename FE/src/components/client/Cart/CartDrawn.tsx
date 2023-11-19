@@ -36,7 +36,7 @@ const CartDrawn = ({ currentUser, isOpen, onClose }: CartDrawnProps) => {
           {cart && cart.products && cart.products.length > 0 ? (
             cart.products.map((cartItem: any) => (
               <CartDrawnItem
-                key={cartItem.product._id}
+                key={cartItem.product?._id}
                 cartItem={cartItem}
                 cartId={cart._id}
               />
